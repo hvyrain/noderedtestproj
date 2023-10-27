@@ -1,0 +1,12 @@
+{
+    "name": "noderedexec",
+    "description": "nodered 연습",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "noderedexec.json",
+            "credentialsFile": "noderedexec_cred.json"
+        }
+    }
+}
