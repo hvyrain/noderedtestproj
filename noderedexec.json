@@ -1,1 +1,55 @@
-[]
+[
+    {
+        "id": "770a7751d3189f82",
+        "type": "tab",
+        "label": "플로우 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1a4d2b213712cbae",
+        "type": "inject",
+        "z": "770a7751d3189f82",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 80,
+        "y": 60,
+        "wires": [
+            [
+                "0797dd49674404a9"
+            ]
+        ]
+    },
+    {
+        "id": "0797dd49674404a9",
+        "type": "debug",
+        "z": "770a7751d3189f82",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 60,
+        "wires": []
+    }
+]
